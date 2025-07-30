@@ -11,6 +11,10 @@ app.get('/', (request, response) => {
     response.render('home');
 });
 
+app.get('/tarefas', (request, response) => {
+    
+});
+
 
 app.listen(port, () => {
     console.log("Aplicação em execução na porta " +port);
